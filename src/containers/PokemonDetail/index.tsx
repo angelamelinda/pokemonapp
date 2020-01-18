@@ -1,4 +1,6 @@
 import React, { PureComponent } from "react";
+import Loading from "../../components/Loading";
+import { LoaderPageWrapper } from "../../components/Loading/index.styled";
 
 interface IPokemonDetail {}
 
@@ -10,7 +12,11 @@ class PokemonDetail extends PureComponent<IPokemonDetail> {
   componentDidMount() {}
 
   render() {
-    return "Pokemon Detail";
+    return (
+      <LoaderPageWrapper>
+        <Loading />
+      </LoaderPageWrapper>
+    );
   }
 }
 
