@@ -2,7 +2,7 @@ import React from "react";
 import { Switch, Route } from "react-router-dom";
 import PokemonList from "./containers/PokemonList";
 import PokemonDetail from "./containers/PokemonDetail";
-import { GlobalStyle } from "./App.style";
+import { GlobalStyle } from "./App.styled";
 
 const App: React.FC = () => {
   return (
