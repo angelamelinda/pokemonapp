@@ -29,12 +29,11 @@ export const Loader = styled.div`
   width: 32px;
   height: 32px;
   animation: ${LoaderAnimation} 0.5s infinite;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 15px auto;
 `;
 
 export const LoaderPageWrapper = styled.div`
-  min-height: 100vh;
+  min-height: calc(100vh - 78px);
   display: flex;
   align-items: center;
 `;
